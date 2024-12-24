@@ -4,6 +4,7 @@ go 1.12
 
 require (
 	github.com/armon/go-metrics v0.0.0-20190430140413-ec5e00d3c878 // indirect
+	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
 	github.com/hashicorp/go-uuid v1.0.2
@@ -17,8 +18,8 @@ require (
 	github.com/nats-io/nats-streaming-server v0.14.1 // indirect
 	github.com/nats-io/nkeys v0.0.2 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
-	github.com/onsi/ginkgo v1.16.2
-	github.com/onsi/gomega v1.10.1
+	github.com/onsi/ginkgo v1.16.5
+	github.com/onsi/gomega v1.18.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.0.0-20190503130316-740c07785007 // indirect
 	github.com/segmentio/kafka-go v0.4.18
